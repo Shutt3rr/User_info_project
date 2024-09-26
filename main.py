@@ -1,3 +1,4 @@
+
 first_name = input("Please enter your first name: ")
 middle_initial = input("Please enter youor middle initial: ")
 last_name = input("Please enter your last name: ")
@@ -13,9 +14,8 @@ phone_number = input("Now provide your phone number: ")
 email = input("Last, please provide your email: ")
 
 print("Is all this information correct?")
-print(f"Street address: {street_address}")
-print(f"City: {city}")
-print(f"State initial: {state_initial}")
-print(f"Zip code: {zip_code}")
+print(f"Name: {first_name} {middle_initial} {last_name}")
+print(f"Street Address: {street_address}")
+print(f"Location: {city}, {state_initial}, {zip_code}")
 print(f"Phone number: {phone_number}")
 print(f"Email: {email}")
